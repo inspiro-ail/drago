@@ -1,0 +1,76 @@
+body {
+  font-family: 'Cinzel', serif;
+  background-color: #1a1a1a;
+  color: #f0e6d2;
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(circle at center, #ec8641, #413f08);
+  animation: fireFlicker 1s infinite alternate;
+
+
+}
+@keyframes fireFlicker {
+  0% {
+    background: radial-gradient(circle at center, #ff6600, #330000);
+  }
+  50% {
+    background: radial-gradient(circle at center, #ff3300, #220000);
+  }
+  100% {
+    background: radial-gradient(circle at center, #ff9900, #440000);
+  }
+}
+
+header {
+  background-image: url('msin.png'); 
+  background-size:cover;
+  text-align: center;
+  padding: 50px 20px;
+  color: #7f6012;
+}
+header h1 {
+  
+  font-size: 48px;
+  color: #7f6012;
+  text-shadow: 
+    -1px -1px 0 #fff,
+     1px -1px 0 #fff,
+    -1px  1px 0 #fff,
+     1px  1px 0 #fff;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: #8c723f;
+  text-shadow: 
+    -1px -1px 0 #fff,
+     1px -1px 0 #fff,
+    -1px  1px 0 #fff,
+     1px  1px 0 #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 40px 20px;
+  border-bottom: 1px solid #444;
+}
+.team-photo{
+    text-align: center;
+}
+.team{
+  width: 60%;
+  height: auto;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1b0d01;
+  color: #aaa;
+}
